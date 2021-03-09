@@ -7,7 +7,21 @@ function leitorFilmeDuracao() {
 
     // obtém os conteúdos de campo de entrada
     let titulo = inTitulo.value;
-    let duracao = Number(inDuracao.value);    
+    let duracao = Number(inDuracao.value); 
+    
+    // Verifica se nenhum dos campos foi digitado e retorna para o título
+    if (titulo == "" || duracao == "") {
+        alert('Digite o Filme e Duração nos campos selecionados.');
+        inTitulo.focus();
+        return;
+    }
+
+    // Verificar se o número digitado é válido 
+    if (duracao == 0 || isNaN(duracao)) {
+        alert('Digite uma duração válida.');
+        inDuracao.focus();
+        return;
+    }
 
     // calcular o tempo
     let hora = Math.floor(duracao / 60);

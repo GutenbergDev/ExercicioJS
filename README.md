@@ -6,6 +6,8 @@
 
 - // Criar referência aos elementos da página
 - // Obter conteúdos dos campos de entrada
+- // Verifica se nenhum dos campos foi digitado e retorna para o título
+- // Verificar se o número digitado é válido
 - // Arredondar para baixo o resultado da divisão
 - // Obter o resto da divisão entre os números
 - // Alterar o conteúdo dos parágrafos de resposta

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #acadad;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  box-shadow: 0px 2px 8px #88af8c;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-img {
+  background-image: url("../cap.2.ex2.2/filmes.png");
+  background-size: cover;
+  background-position: center;
+  width: 105px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  outline: 0;
+  border: 0px solid #9c9999;
+  border-bottom: 1px solid #9c9999;
+  margin-top: 5px;
+}
+
+input[type="button"] {
+  background-color: #2b8651;
+  color: #ffffff;
+  border: 0;
+  padding: 8px 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #33a060;
+}
+
+h3 {
+  margin: 0;
+}
+
+#outTempo {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
